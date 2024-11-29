@@ -12,34 +12,40 @@ Region and subregion
 Favorites: Mark countries as favorites using a heart icon. Favorites are saved and displayed in a separate screen for quick access.
 Comparison: Compare two countries side by side to view their details and similarities.
 Dark Mode Design: Features a visually appealing black background for better readability and modern aesthetics.
+
 🚀 Installation
 Follow these steps to set up the project on your local machine:
-
 Prerequisites
 Flutter SDK installed.
 Android Studio or Visual Studio Code with Flutter extension.
 A device or emulator to run the app.
 Steps
 Clone the repository:
-bash
-Copy code
+
 git clone https://github.com/IkireziI/world_explorer.git
+
+
 Navigate to the project directory:
-bash
-Copy code
+
 cd world-explorer
+
+
 Fetch dependencies:
-bash
-Copy code
+
 flutter pub get
+
+
 Run the app:
-bash
-Copy code
+
 flutter run
+
+
+
 🛠️ Tech Stack
 Flutter: UI framework for building the app.
 Dart: Programming language used in Flutter.
 REST Countries API: API for country data.
+
 📱 Screenshots
 Home Screen
 Displays countries vertically, with flags, names, and regions.
@@ -49,9 +55,10 @@ Favorites Screen
 Displays a list of countries the user has marked as favorites.
 Compare Screen
 Allows comparison between two countries.
+
 📂 Project Structure
-plaintext
-Copy code
+
+
 lib/
 ├── main.dart               # Entry point of the app
 ├── screens/
@@ -63,32 +70,38 @@ lib/
 ├── widgets/
 │   ├── country_card.dart   # Custom widget for displaying a country card
 │   ├── favorites_list.dart # Custom widget for displaying favorites
+
+
 ⚙️ Configuration
 Permissions
 Ensure the following permissions are added to android/app/src/main/AndroidManifest.xml:
 
-xml
-Copy code
+
 <uses-permission android:name="android.permission.INTERNET" />
+
+
 🌐 API Information
 This project uses the REST Countries API for fetching country data. You can view the API documentation here.
 
 🚨 Known Issues and Fixes
 App crashes on API calls: Ensure you’ve enabled cleartext traffic in AndroidManifest.xml.
 Slow response from API: Test the API URL in Postman to verify response times.
+
 🙌 Acknowledgments
 Flutter
 REST Countries API
+
 💡 Future Enhancements
 Offline Mode: Cache country data for offline access.
 Localization: Support multiple languages for the app UI.
 Theming: Add light and dark mode toggling.
+
 🤝 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
+
 💌 Contact
 For any inquiries or suggestions, feel free to reach out:
-
 Email: i.ikirezi@alustudent.com
 GitHub: IkireziI
 
